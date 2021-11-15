@@ -34,7 +34,7 @@ int merge(vector<int> &vec, int l, int m, int r)
 	return res;
 }
 
-int process(vector<int>& vec, int l, int r)
+int smallSum(vector<int>& vec, int l, int r)
 {
 	if (l == r)
 	{
@@ -42,7 +42,7 @@ int process(vector<int>& vec, int l, int r)
 	}
 	int m = l + ((r - l) >> 1);
 
-	return process(vec, l, m) + process(vec, m + 1, r) + merge(vec, l, m, r);
+	return smallSum(vec, l, m) + smallSum(vec, m + 1, r) + merge(vec, l, m, r);
 }
 
 int main()
@@ -50,12 +50,8 @@ int main()
 	vector<int> vec = generateRandomVector(10, 0, 100);
 	
 	show1DVector(vec);
-	
-	
 
-	cout << process(vec, 0, vec.size() - 1);
-
-
+	cout << smallSum(vec, 0, vec.size() - 1);
 
 	return 0;
 }
