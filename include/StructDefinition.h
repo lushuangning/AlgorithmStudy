@@ -5,6 +5,7 @@
 #ifndef LEET_CODE_STRUCTDEFINITION_H
 #define LEET_CODE_STRUCTDEFINITION_H
 
+// 单链表
 struct ListNode 
 {
     int val;
@@ -14,6 +15,26 @@ struct ListNode
     ListNode(int x, ListNode *next) : val(x), next(next) {}
 };
 
+// 双链表
+typedef struct DoublyListNode
+{
+    int val;
+    DoublyListNode* pre;
+    DoublyListNode* next;
+    DoublyListNode() : val(0), pre(nullptr), next(nullptr) {}
+    DoublyListNode(int x) : val(x), pre(nullptr), next(nullptr) {}
+    DoublyListNode(int x, DoublyListNode* p, DoublyListNode* n) : val(x), pre(p), next(n) {}
+}DoublyListNode;
+
+// 带随机指针的单链表
+struct RandomNode {
+    int val;
+    struct RandomNode* next;
+    struct RandomNode* random;
+    RandomNode(int x) : val(x), next(nullptr), random(nullptr) {}
+};
+
+// 二叉树
 struct TreeNode 
 {
     int val;

@@ -1,6 +1,7 @@
-﻿//
-// Created by 路双宁 on 2021/3/17.
-//
+﻿/*
+* Created by 路双宁 on 2021 / 3 / 17.
+* 两数相加
+*/
 
 #include "StructDefinition.h"
 

@@ -1,6 +1,7 @@
-﻿//
-// Created by 路双宁 on 2021/3/9.
-//
+﻿/*
+* Created by 路双宁 on 2021/3/9.
+* 重新排列数组
+*/
 
 #include <iostream>
 #include <vector>

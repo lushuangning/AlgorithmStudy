@@ -1,6 +1,7 @@
-﻿//
-// Created by 路双宁 on 2021/3/16.
-//
+﻿/*
+* Created by 路双宁 on 2021/3/16.
+* 合并两个有序链表
+*/
 
 #include "StructDefinition.h"
 

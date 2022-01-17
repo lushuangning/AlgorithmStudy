@@ -1,6 +1,7 @@
-﻿//
-// Created by 路双宁 on 2021/3/17.
-//
+﻿/*
+* Created by 路双宁 on 2021/3/17.
+* 反转链表
+*/
 #include "StructDefinition.h"
 
 ListNode* reverseList(ListNode* head)
@@ -13,5 +14,6 @@ ListNode* reverseList(ListNode* head)
         p=head;
         head=n;
     }
+
     return p;
 }

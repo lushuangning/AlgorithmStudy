@@ -1,7 +1,7 @@
-﻿//
-// Created by 路双宁 on 2021/3/19.
-// 汉明距离
-//
+﻿/*
+* Created by 路双宁 on 2021/3/19.
+* 汉明距离
+*/
 
 #include <iostream>
 

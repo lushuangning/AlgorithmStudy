@@ -1,7 +1,7 @@
-﻿//
-// Created by 路双宁 on 2021/3/14.
-// 删除链表的倒数第 N 个结点
-//
+﻿/*
+* Created by 路双宁 on 2021/3/14.
+* 删除链表的倒数第 N 个结点
+*/
 
 #include "StructDefinition.h"
 

@@ -1,3 +1,5 @@
+// —’…´∑÷¿‡
+
 #include <iostream>
 #include <vector>
 #include <algorithm>
@@ -12,14 +14,13 @@ void sortColors(vector<int> &nums) {
 
 	while(i < R) {
 		if (nums[i] < 1) {
-			swap(nums[(L++) + 1], nums[i]);
-			i++;
+			swap(nums[++L], nums[i++]);
 		}
 		else if (nums[i] == 1) {
 			i++;
 		}
 		else {
-			swap(nums[(R--) - 1], nums[i]);
+			swap(nums[--R], nums[i]);
 		}
 	}
 }

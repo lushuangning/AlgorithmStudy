@@ -13,7 +13,7 @@ TreeNode* createNode(std::vector<int>& vec, int index);
  *
  */
 ListNode* buildList(std::vector<int> &vec)
-{   //构造不带头结点的链表
+{   //构造不带头结点的链表，尾插法
     ListNode *list = new ListNode(-1);  //哑结点
     ListNode *p, *q;
 

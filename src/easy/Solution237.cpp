@@ -1,6 +1,7 @@
-﻿//
-// Created by 路双宁 on 2021/3/14.
-//
+﻿/*
+* Created by 路双宁 on 2021/3/14.
+* 删除链表中的节点
+*/
 
 #include "StructDefinition.h"
 

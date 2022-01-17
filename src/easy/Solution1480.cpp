@@ -1,6 +1,7 @@
-﻿//
-// Created by 路双宁 on 2021/3/13.
-//
+﻿/*
+* Created by 路双宁 on 2021/3/13.
+* 一维数组的动态和
+*/
 
 #include <vector>
 using namespace std;

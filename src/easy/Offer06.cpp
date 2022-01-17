@@ -1,3 +1,5 @@
+// 从尾到头打印链表
+
 #include <vector>
 #include <iostream>
 #include "StructDefinition.h"
@@ -40,7 +42,7 @@ int main()
 	tmp->next = new ListNode(10);
 	tmp = tmp->next;
 
-	//showNodeList(head);
+	//showListNode(head);
 
 	vector<int> vec = reversePrint(head);
 	

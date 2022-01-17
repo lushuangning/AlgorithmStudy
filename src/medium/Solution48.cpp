@@ -1,6 +1,7 @@
-﻿//
-// Created by 路双宁 on 2021/3/17.
-//
+﻿/*
+* Created by 路双宁 on 2021/3/17.
+* 旋转图像
+*/
 
 #include <vector>
 using namespace std;

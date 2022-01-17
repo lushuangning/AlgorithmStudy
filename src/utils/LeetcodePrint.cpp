@@ -5,7 +5,7 @@
 
 using namespace std;
 
-void showNodeList(ListNode* list)
+void showListNode(ListNode* list)
 {
     if (!list)
     {
@@ -20,6 +20,23 @@ void showNodeList(ListNode* list)
     }
 
     std::cout << list->val << std::endl;
+}
+
+void showListNode(DoublyListNode *db_list)
+{
+    if (!db_list)
+    {
+        std::cout << "Empty list!" << std::endl;
+        return;
+    }
+
+    while (db_list->next)
+    {
+        std::cout << db_list->val << "->";
+        db_list = db_list->next;
+    }
+
+    std::cout << db_list->val << std::endl;
 }
 
 void show2DVector(vector<vector<int>> &matrix)
